@@ -1,6 +1,10 @@
-*.exe
-*.vcxproj
-*.tlog
-*.pbd
+#Binaries
 bin-int/
-bin/
+**/bin/
+
+#Visual Studios
+.vs
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.users
