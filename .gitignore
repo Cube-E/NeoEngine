@@ -1,0 +1,6 @@
+*.exe
+*.vcxproj
+*.tlog
+*.pbd
+bin-int/
+bin/
