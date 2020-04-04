@@ -15,4 +15,5 @@ namespace Neo {
 
 	//To be defined in CLIENT
 	Application* CreateApplication();
+		//Extra notes: Defined outside of class in order to call/implement without having to create object.
 }
