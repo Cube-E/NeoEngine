@@ -1,4 +1,4 @@
-#include "Neo/Application.h"
+#include "Neo.h"
 
 class Sandbox : public Neo::Application
 {
@@ -13,10 +13,7 @@ public:
 
 };
 
-int main()
-{
-	Sandbox* sandbox = new Sandbox();
-	sandbox->Run();
-	delete sandbox;
-	return 0;
+Neo::Application* Neo::CreateApplication() {
+	
+	return new Sandbox();
 }
