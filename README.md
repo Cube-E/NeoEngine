@@ -18,3 +18,12 @@ Entry point lies inside the engine.
 		The implementation should return and object itself.
 	When engine runs with client, in EntryPoint, the extern gets/calls the implemented CreateApplication in client which gets the client object. It then runs the app while true.
 	
+Logging
+	Using spdlog.
+	git submodule into the project to not have to maintain the code yourself.
+	Configuation Properties -> C/C++ -> General
+		Add include directory from spdlog into Additional Include Directories.
+	Shared_ptrs help cleanup when you're not using the memory anymore.
+	Can't declare static in header file because of multiple definitions when #include. (Is there a way in c++11?)
+		c++17 allows with keyword inline to fix static declaration in header(NEED TO FIND OUT WHY).
+	A non-static member variable or function has to be used in reference to an object. Static does not.
