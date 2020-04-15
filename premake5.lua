@@ -22,11 +22,16 @@ project "Neo"
     files
     {
         "%{prj.name}/src/**.h",
-        "%{prj.name}/src/**.cpp"
+        "%{prj.name}/src/**.cpp",
+        "%{prj.name}/src/Neo/Event/**.h"
+
+
     }
 
     includedirs
     {
+          "%{prj.name}/src/Neo",
+          "%{prj.name}/src/Neo/Event",
           "%{prj.name}/vendor/spdlog/include"
     }
 

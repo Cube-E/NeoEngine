@@ -4,6 +4,7 @@
 #include "Core.h"
 #include "spdlog\spdlog.h"
 #include "spdlog\details\registry.h"
+#include "spdlog\fmt\ostr.h"
 
 namespace Neo {
 
