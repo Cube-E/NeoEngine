@@ -4,3 +4,6 @@
 [submodule "TestNeo/vendor/googletest"]
 	path = TestNeo/vendor/googletest
 	url = https://github.com/google/googletest.git
+[submodule "Neo/vendor/GLFW"]
+	path = Neo/vendor/GLFW
+	url = https://github.com/Cube-E/glfw
