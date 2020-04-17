@@ -1,8 +1,6 @@
 #pragma once
-
+#include "neopch.h"
 #include "Core.h"
-#include <string>
-#include <functional>
 
 
 

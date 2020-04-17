@@ -19,6 +19,9 @@ project "Neo"
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+    pchheader "neopch.h"
+    pchsource "Neo/src/neopch.cpp"
+
     files
     {
         "%{prj.name}/src/**.h",
@@ -30,6 +33,7 @@ project "Neo"
 
     includedirs
     {
+          "%{prj.name}/src",
           "%{prj.name}/src/Neo",
           "%{prj.name}/src/Neo/Event",
           "%{prj.name}/vendor/spdlog/include"

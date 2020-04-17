@@ -1,7 +1,6 @@
 #pragma once
 
-#include "Event/Event.h"
-#include <sstream>
+#include "Event.h"
 
 namespace Neo {
 

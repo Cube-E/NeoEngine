@@ -1,6 +1,6 @@
+#include "neopch.h"
 #include "Application.h"
-
-#include "Event/ApplicationEvent.h"
+#include "ApplicationEvent.h"
 #include "Log.h"
 
 namespace Neo {
